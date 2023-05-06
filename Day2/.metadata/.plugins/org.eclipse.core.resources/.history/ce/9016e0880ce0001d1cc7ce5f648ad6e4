@@ -1,0 +1,26 @@
+package wiley_core_java;
+
+public class MethodTypes {
+	
+	public void add(int v1, int v2) {
+		int val = v1 + v2;
+		System.out.println(val);
+		this.sub(9,5);
+	}
+	
+	public static void multiply(int v1, int v2) {
+		int val = v1*v2;
+		System.out.println(val);
+	}
+	
+	public void sub(int v1, int v2) {
+		int val = v1-v2;
+		System.out.println(val);
+	}
+	
+	public static void main(String[] args) {
+		MethodTypes mt = new MethodTypes();
+		multiply(1,2);
+		mt.add(2,3);
+	}
+}

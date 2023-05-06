@@ -1,0 +1,29 @@
+package wiley_core_java;
+
+public class InstanceOrder {
+	
+	
+	int age;
+	
+	{
+		name = "Praveen";
+		System.out.println("Instance order"); //takes precedence over constructors
+	}
+	
+	public InstanceOrder() {
+		name = "Rao"; 
+		System.out.println("Inside 0 args constructor");
+	}
+	
+	
+	public InstanceOrder(int a, int b) {
+		System.out.println("Inside 2 args constructor");
+	}
+	String name = "V P";
+	
+	public static void main(String[] args) {
+		String name = ".."
+		InstanceOrder inOr = new InstanceOrder();
+		System.out.println(inOr.name); // prints Rao as constructor replaces Praveen
+	}
+}

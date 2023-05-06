@@ -1,0 +1,9 @@
+package wiley_core_java;
+
+class Truck extends Vehicle{
+	
+}
+
+public class HierarchicalInheritance {
+	
+}

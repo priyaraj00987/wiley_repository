@@ -1,0 +1,14 @@
+package wiley_core_java;
+
+public class CreateClass {
+	int a = 10;
+	public void add() {
+		System.out.println("Number Addition");
+	}
+	
+	public static void main(String[] args) {
+		CreateClass cc = new CreateClass();
+		cc.add();
+		System.out.println(cc);
+	}
+}

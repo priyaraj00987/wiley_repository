@@ -1,0 +1,21 @@
+package wiley_core_java;
+
+public class InstanceOrder {
+	
+	public InstanceOrder() {
+		System.out.println("Inside 0 args constructor");
+	}
+	{
+		System.out.println("Instance order");
+	}
+	
+	
+	
+	public InstanceOrder(int a, int b) {
+		System.out.println("Inside 2 args constructor");
+	}
+	
+	public static void main(String[] args) {
+		new InstanceOrder();
+	}
+}

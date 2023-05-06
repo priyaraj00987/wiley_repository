@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="wiley_core_java.CreateClass"/>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="java.lang.InstantiationError"/>
+    <fullyQualifiedTypeName name="wiley_core_java.MethodTypes"/>
+    <fullyQualifiedTypeName name="wiley_core_java.ConstructorTypes"/>
+    <fullyQualifiedTypeName name="wiley_core_java.SmartCar"/>
+    <fullyQualifiedTypeName name="wiley_core_java.ClassRoom"/>
+</qualifiedTypeNameHistroy>

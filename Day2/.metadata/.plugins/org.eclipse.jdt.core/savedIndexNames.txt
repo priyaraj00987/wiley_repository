@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+D:\Games\Work\WileyEdge\Codes\Day2\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3491805078.index
+1696264553.index

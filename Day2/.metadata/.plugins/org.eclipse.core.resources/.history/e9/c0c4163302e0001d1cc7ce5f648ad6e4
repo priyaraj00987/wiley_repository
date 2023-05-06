@@ -1,0 +1,26 @@
+package wiley_core_java;
+
+public class CreateClass {
+	int a = 10;
+	public void add() {
+		System.out.println("Number Addition");
+	}
+	
+	public static void main(String[] args) {
+		// Create object using new keyword
+		CreateClass cc = new CreateClass();
+		cc.add();
+		System.out.println(cc);
+		
+		// Creating object using newInstance()
+		try {
+			Class c = Class.forName("wiley_core_java.CreateClass");
+			// @SuppressWarnings("deprecation")
+			CreateClass ci = (CreateClass) c.newInstance();
+			ci.add();
+			System.out.println(ci);
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

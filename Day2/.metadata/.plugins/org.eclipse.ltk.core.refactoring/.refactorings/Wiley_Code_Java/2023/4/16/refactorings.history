@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;singam&apos; in &apos;wiley_core_java.SingleInheritance.main(...)&apos; to &apos;lion&apos;&#x0D;&#x0A;- Original project: &apos;Wiley_Code_Java&apos;&#x0D;&#x0A;- Original element: &apos;wiley_core_java.SingleInheritance.main(String[]).singam&apos;&#x0D;&#x0A;- Renamed element: &apos;singam&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;singam&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;wiley_core_java{SingleInheritance.java[SingleInheritance~main~\[QString;@singam!334!358!339!344!QLion;!0!false" name="lion" references="true" stamp="1682067651484" version="1.0"/>
+</session>
