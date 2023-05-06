@@ -1,4 +1,4 @@
-package IOStreams;
+package Day4.Wiley_core_java.src.IOStreams;
 
 import java.io.BufferedOutputStream;
 import java.io.FileNotFoundException;
