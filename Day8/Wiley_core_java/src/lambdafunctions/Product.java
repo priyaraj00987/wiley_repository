@@ -1,6 +1,8 @@
-package lambdafunctions;
+package Day8.Wiley_core_java.src.lambdafunctions;
 
-public class Product implements Printable{
+import java.awt.print.Printable;
+
+public class Product implements Printable {
 	public Product() {
 		
 	}
