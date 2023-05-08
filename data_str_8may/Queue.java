@@ -1,4 +1,4 @@
-package data_str_stack;
+package data_str_8may;
 
 public class Queue {
     int arr[];
