@@ -1,4 +1,4 @@
-package Assignments.WIley_assignments.src.day4assignment;
+package Assignments.WIley_assignments.src.d4assignment;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

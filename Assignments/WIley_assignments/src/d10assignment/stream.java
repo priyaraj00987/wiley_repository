@@ -1,4 +1,4 @@
-package Assignments.WIley_assignments.src.day10assignment;
+package Assignments.WIley_assignments.src.d10assignment;
 
 
 public class stream {
