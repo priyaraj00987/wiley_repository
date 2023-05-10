@@ -3,7 +3,7 @@ package Day2.Wiley_Code_Java.src.wiley_core_java;
 public class ConstructorTypes {
 	
 	public ConstructorTypes(int a, int b) {
-		this(); //calls the zero args constructor
+		this();
 		System.out.println("2 args: "+ (a+b));
 	}
 	
