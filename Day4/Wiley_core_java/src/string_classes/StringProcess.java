@@ -30,7 +30,7 @@ public class StringProcess {
 		System.out.println();
 		
 		String userInput = " mobile phones ";
-		System.out.println(userInput.trim()); //trims spaces at begining and end of string
+		System.out.println(userInput.trim());
 		
 		System.out.println(str.substring(0,5));
 		System.out.println(str.toUpperCase());

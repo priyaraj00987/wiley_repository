@@ -22,7 +22,7 @@ class Employee{
 public class EmployeeEncapsulation {
 	public static void main(String[] args) {
 		Employee emp = new Employee();
-		emp.setName("Praveen");
+		emp.setName("Priya RAj");
 		emp.setAge(19);
 		emp.returnDetails();
 		// System.out.println(emp.name); emp.name is private, cannot access directly

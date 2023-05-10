@@ -15,7 +15,7 @@ public class ExceptionHandling {
 			//System.out.println(arr[4]); // array index out of bounds exception
 			//int a = 12/0; //Arithmetic error
 			String s = "OneTwoThree"; 
-			System.out.println(s.charAt(13)); //StringIndexOutOfBoundsException
+			System.out.println(s.charAt(13));
 			System.out.println("Other"); //this line doesnt get executed
 		} catch(ArrayIndexOutOfBoundsException e) {  // most child class
 			e.printStackTrace(); //getMessage and toString doesnt work in java 20

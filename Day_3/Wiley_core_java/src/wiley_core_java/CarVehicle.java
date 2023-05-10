@@ -26,7 +26,7 @@ class Car extends Vehicle{
 		System.out.println("Moving");
 	}
 	public void turn() {
-		System.out.println("Turning");
+		System.out.println("rurning");
 	}
 }
 

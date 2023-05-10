@@ -21,9 +21,9 @@ public class AccessModifiers extends Employees{
 		AccessModifiers employee =  new AccessModifiers();
 		Employee e = new Employee();
 		employee.empId = 101;
-		// employee.age = 10; age is private
+
 		employee.printDetails();
-		e.setName("Praveen");
+		e.setName("Priya Raj");
 		e.setAge(21);
 		e.returnDetails();
 	}

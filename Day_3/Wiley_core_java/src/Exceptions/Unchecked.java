@@ -23,6 +23,6 @@ public class Unchecked {
 				e.printStackTrace();
 			}
 		}
-		System.out.println("Messages");
+		System.out.println("Msg");
 	}
 }

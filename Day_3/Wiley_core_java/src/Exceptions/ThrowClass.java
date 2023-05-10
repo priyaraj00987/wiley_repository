@@ -8,7 +8,7 @@ public class ThrowClass {
 	
 	public static void m2() throws InterruptedException  {
 		Thread t = new Thread();
-		System.out.println("Thread is running...");
+		System.out.println("Thread running...");
 		t.sleep(1000);
 		System.out.println("Sleeping");
 		t.wait();

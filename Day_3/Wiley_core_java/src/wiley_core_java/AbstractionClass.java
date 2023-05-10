@@ -51,12 +51,12 @@ class Test3 extends Test2{
 
 public class AbstractionClass {
 	public static void main(String[] args) {
-		Test2 t2 = new Test2(); // first t1 constructor will run, parent class will run first
+		Test2 t2 = new Test2();
 		Test2 t3 = new Test2();
-		//Test3 t3 = new Test3();
+
 		t2.m1();
 		t2.m2();
-		//t3.m1();
+
 		
 		Test1.main(args);
 	}
