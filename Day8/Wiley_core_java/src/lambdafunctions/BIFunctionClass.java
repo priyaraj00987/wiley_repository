@@ -1,4 +1,4 @@
-package lambdafunctions;
+package Day8.Wiley_core_java.src.lambdafunctions;
 
 import java.util.function.BinaryOperator;
 import java.util.function.UnaryOperator;

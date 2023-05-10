@@ -1,11 +1,9 @@
 package CollectionsPackage;
 
-import java.util.Enumeration;
-import java.util.Iterator;
 import java.util.ListIterator;
 import java.util.Vector;
 
-public class CursorClass {
+public class CurClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

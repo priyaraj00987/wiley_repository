@@ -1,4 +1,4 @@
-package SynchronizationConcepts;
+package Day7.Wiley_core_java.src.SynchronizationConcepts;
 
 class BankAccount{
 	int amount = 1000;

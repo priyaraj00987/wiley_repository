@@ -1,4 +1,4 @@
-package ThreadsConcept;
+package Day6.Wiley_core_java.src.ThreadsConcept;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

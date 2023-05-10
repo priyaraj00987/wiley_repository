@@ -1,4 +1,4 @@
-package CollectionsPackage;
+package Day8.Wiley_core_java.src.collection;
 
 class Student{}
 class Book{}

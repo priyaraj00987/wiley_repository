@@ -1,4 +1,4 @@
-package ThreadsConcept;
+package Day6.Wiley_core_java.src.ThreadsConcept;
 
 class SupportClass extends Thread{
 	@Override

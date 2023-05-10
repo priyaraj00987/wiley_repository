@@ -1,4 +1,4 @@
-package IOStreams;
+package Day4.Wiley_core_java.src.IOStreams;
 
 
 import java.io.FileOutputStream;
@@ -73,8 +73,8 @@ public class StudentRecords {
 	
 	public static void main(String[] args) throws IOException {
 		List<Student> studentList = new ArrayList<>();
-		studentList.add(new Student("Praveen","Male",21,'S'));
-		studentList.add(new Student("Anon","Male",23,'A'));
+		studentList.add(new Student("Priya","Female",21,'S'));
+		studentList.add(new Student("Raj","Male",23,'A'));
 		String outputFile = "D:\\Games\\Work\\WileyEdge\\Codes\\Day4\\Wiley_core_java\\data\\students.dat";
 		try {
 			StudentRecords outputWriter = new StudentRecords(outputFile);

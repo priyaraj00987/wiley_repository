@@ -1,4 +1,4 @@
-package Patterns;
+package Day6.Wiley_core_java.src.Patterns;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

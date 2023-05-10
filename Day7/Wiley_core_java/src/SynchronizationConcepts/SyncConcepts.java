@@ -1,7 +1,7 @@
-package SynchronizationConcepts;
+package Day7.Wiley_core_java.src.SynchronizationConcepts;
 
 class Sheet{
-	public void writeLn(int k) { // or public synchronized void writeLn()
+	public void writeLn(int k) {
 		synchronized(this){
 			for(int i=1;i<=5;i++) {
 				System.out.println(i*k);

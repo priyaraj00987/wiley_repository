@@ -1,4 +1,4 @@
-package streamspackage;
+package Day8.Wiley_core_java.src.streamspackage;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 
 public class StreamsClass {
 	public static void main(String[] args) {
-//		List<String> list = Arrays.asList("Java", "Pyuthon");
+//		List<String> list = Arrays.asList("Java", "Python");
 //		Stream<String> myStream = list.stream();
 		
 //		String[] arr = {"Java", "Python","Angular"};

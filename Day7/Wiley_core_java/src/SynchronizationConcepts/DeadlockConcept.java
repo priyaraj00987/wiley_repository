@@ -1,4 +1,4 @@
-package SynchronizationConcepts;
+package Day7.Wiley_core_java.src.SynchronizationConcepts;
 
 public class DeadlockConcept {
 	public static Object Lock1 = new Object();

@@ -1,4 +1,4 @@
-package RandomConcepts;
+package Day8.Wiley_core_java.src.Concepts;
 
 public class EqualDemo {
 

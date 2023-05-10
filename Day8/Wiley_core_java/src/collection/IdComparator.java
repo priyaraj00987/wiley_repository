@@ -1,4 +1,4 @@
-package CollectionsPackage;
+package Day8.Wiley_core_java.src.collection;
 
 import java.util.Comparator;
 

@@ -1,4 +1,4 @@
-package ThreadsConcept;
+package Day6.Wiley_core_java.src.ThreadsConcept;
 
 class TPriority extends Thread{
 	@Override
@@ -27,9 +27,9 @@ public class ThreadPriority {
 		TPriority t2 = new TPriority();
 		TPriority t3 = new TPriority();
 		
-		t1.setName("First Thread");
-		t2.setName("Second Thread");
-		t3.setName("Third Thread");
+		t1.setName("1st Thread");
+		t2.setName("2nd Thread");
+		t3.setName("3rd Thread");
 		
 		t1.start();
 		t1.join(100);
