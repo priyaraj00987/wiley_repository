@@ -1,4 +1,4 @@
-package Day4.Wiley_core_java.src.Random;
+package Day4.Wiley_core_java.src.RandomConversion;
 
 import java.util.Scanner;
 

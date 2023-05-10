@@ -1,4 +1,4 @@
-package string_classes;
+package Day4.Wiley_core_java.src.string_classes;
 
 public class StringBuilderClass {
 	public static void main(String[] args) {

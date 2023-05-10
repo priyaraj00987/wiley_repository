@@ -1,4 +1,4 @@
-package string_classes;
+package Day4.Wiley_core_java.src.string_classes;
 
 import java.util.Arrays;
 import java.util.List;
