@@ -1,4 +1,4 @@
-package wiley_core_java;
+package Day2.Wiley_Code_Java.src.wiley_core_java;
 
 public class InstanceOrder {
 	
@@ -7,12 +7,12 @@ public class InstanceOrder {
 	
 	// Instance Block
 	{
-		name = "Praveen";
+		name = "Priya";
 		System.out.println("Instance order"); //takes precedence over constructors
 	}
 	
 	public InstanceOrder() {
-		name = "Rao"; 
+		name = "priya raj";
 		System.out.println("Inside 0 args constructor");
 	}
 	
@@ -22,7 +22,7 @@ public class InstanceOrder {
 	}
 	String name = "V P";
 	
-	// Static block, only executes once regardless of number of objects, but holds top precedence
+
 	static {
 		System.out.println("Static block");
 	}
@@ -31,6 +31,6 @@ public class InstanceOrder {
 		String name = "..";
 		InstanceOrder inOr = new InstanceOrder();
 	    new InstanceOrder();
-		System.out.println(inOr.name); // prints Rao as constructor replaces Praveen
+		System.out.println(inOr.name);
 	}
 }

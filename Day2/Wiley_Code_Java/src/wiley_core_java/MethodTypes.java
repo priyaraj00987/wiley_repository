@@ -1,4 +1,4 @@
-package wiley_core_java;
+package Day2.Wiley_Code_Java.src.wiley_core_java;
 
 class Test {
 	public static int add(int v1, int v2) {

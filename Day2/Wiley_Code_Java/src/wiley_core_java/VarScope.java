@@ -1,9 +1,9 @@
-package wiley_core_java;
+package Day2.Wiley_Code_Java.src.wiley_core_java;
 
 public class VarScope {
 	
 	int ins = 20;
-	static String name = "Praveen"; // no need of object calling
+	static String name = "Priya"; // no need of object calling
 	int val=9;
 	int val1 = 12;
 	
@@ -13,7 +13,7 @@ public class VarScope {
 	}
 	
 	public static void main(String[] args) {
-		int ins = 10; // takes precedence
+		int ins = 10;
 		VarScope vs = new VarScope();
 		int loc = 5;
 		System.out.println(vs.ins);
