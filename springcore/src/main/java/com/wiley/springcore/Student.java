@@ -61,7 +61,7 @@ public class Student {
 	@Override
 	public String toString() {
 		return "Sudent [studentId=" + studentId + ", studentName=" + studentName + ", studentAddress=" + studentAddress
-				+ "]";
+				+", obj=" + obj + "]";
 	}
 	public Student() {
 		super();

@@ -14,6 +14,11 @@
 		name="studentId"> <value>22344</value> </property> <property name="studentName"> 
 		<value>Priya</value> </property> <property name="studentAddress"> <value> 
 		Lucknow </value> </property> </bean> -->
+		<bean class ="com.wiley.springcore.Address" name="adref">
+<property name ="city" value = "pune">
+
+</property>
+</bean> 
 	<bean class="com.wiley.springcore.Student" name="wileystudent1"
 		p:studentId="1" p:studentName="Priya" p:studentAddress="delhi">
 		<property name = "obj">
@@ -42,11 +47,7 @@
 			
 		</property>
 	</bean>
-<bean class ="com.wiley.springcore.Address" name="adref">
-<property name ="address" value = "pune">
 
-</property>
-</bean> 
 
 
 </beans>
