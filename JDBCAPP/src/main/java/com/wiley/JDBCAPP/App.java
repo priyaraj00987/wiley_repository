@@ -25,7 +25,7 @@ public class App
             Class.forName(driver);
 
             Connection conn= DriverManager.getConnection(url,username,password);
-            System.out.println("connection sucess");
+            System.out.println("connection sucess  ");
         } catch (Exception e) {
             e.printStackTrace();
         }
