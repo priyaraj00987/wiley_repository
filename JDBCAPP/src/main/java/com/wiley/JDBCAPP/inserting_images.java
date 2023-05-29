@@ -20,11 +20,12 @@ public class inserting_images {
 
             String q= "insert into images(pic) value(?)";
             PreparedStatement pstmt= conn.prepareStatement(q);
-            FileInputStream fis=new FileInputStream("pancard.jpg");
+            FileInputStream fis=new FileInputStream("C:\\Users\\user\\Pictures\\photo");
             pstmt.setBinaryStream(1,fis,fis.available());
             pstmt.executeUpdate();
             System.out.println("done..............");
         }catch (Exception e){
+            e.printStackTrace();
             System.out.println("error");
         }
     }
