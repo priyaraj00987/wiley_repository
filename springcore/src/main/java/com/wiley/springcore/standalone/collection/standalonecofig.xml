@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd
+      http://www.springframework.org/schema/util
+    http://www.springframework.org/schema/util/spring-util.xsd">    
+    
+   <!--  this is our beans -->    
+   <util:list list-class="java.util.LinkedList" id="myfriends">
+   <value>rahul</value>
+   <value>dushyant</value>
+   <value>riddim</value>
+   </util:list>
+   
+   <util:map map-class="java.util.HashMap" id="feestructure">
+ <entry key="spring" value="1000"/>
+  <entry key="java" value="500"/>
+   <entry key="python" value="800"/>
+   </util:map>
+ <bean class="com.wiley.springcore.standalone.collection.Person" name="this is person1">
+ <property name="friends">
+  <ref bean="myfriends"/>
+  </property>
+  <property name="fee">
+  <ref bean = "feestructure"/>
+  </property>
+
+ </bean>
+
+</beans>

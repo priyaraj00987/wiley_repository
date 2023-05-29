@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">    
+    
+    <context:annotation-config/>
+    
+   <!--  this is our beans -->    
+   
+ <bean class = "com.wiley.springcore.autowire.annotation.Address" name ="abc"> 
+  <property name="street" value="patna"/>
+  <property name="city" value="bihar"/>
+  
+  </bean> 
+   <bean class = "com.wiley.springcore.autowire.annotation.Address" name ="address">
+  <property name="street" value="hadapsar"/>
+  <property name="city" value="pune"/>
+  
+  </bean>
+<bean class="com.wiley.springcore.autowire.annotation.Emp" name="emp" /> <!-- 2. is byType --> 
+  
+
+</beans>
