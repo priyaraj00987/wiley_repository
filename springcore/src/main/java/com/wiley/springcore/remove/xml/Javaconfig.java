@@ -6,19 +6,19 @@ import org.springframework.context.annotation.Configuration;
 
 
 @Configuration
-// @ComponentScan(basePackages="com.springcore.remove.xml")
+// @ComponentScan(basePackages="com.wiley.springcore.remove.xml")
 public class Javaconfig {
 	
 	
 @Bean
-	public Student getSamosa() {
+	public Student getStudent() {
 		return new Student();
 	}
 
 @Bean
     public Demo1 getDemo() {
 		//creating a new student object
-    Demo1 demo1= new Demo1(getSamosa());
+    Demo1 demo1= new Demo1(getStudent());
 	return demo1;
 }
 

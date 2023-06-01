@@ -1,12 +1,10 @@
 package com.wiley.springBootNew.Controller;
 
 import com.wiley.springBootNew.Service.DepService;
+import com.wiley.springBootNew.exception.DepNotFoundException;
 import com.wiley.springBootNew.model.Department;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -24,5 +22,14 @@ public class DepartmentController {
     public List<Department> getAllDepartments() {
         return depService.getAllDepartmentList();
     }
+
+    @GetMapping("/deps/{id}")
+    public Department getDepById(@PathVariable("id") Long depId) throws DepNotFoundException {
+
+        return depService.getDepartmentById(depId);
+
+    }
+
+
 
 }

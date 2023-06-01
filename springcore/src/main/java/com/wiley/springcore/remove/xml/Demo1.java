@@ -5,23 +5,23 @@ import org.springframework.stereotype.Component;
 //@Component("firststudent")
 
 public class Demo1 {
-	private Student samosa;
+	private Student student;
 	public Demo1() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Demo1(Student samosa) {
+	public Demo1(Student student) {
 		super();
-		this.samosa = samosa;
+		this.student = student;
 	}
-	public Student getSamosa() {
-		return samosa;
+	public Student getStudent() {
+		return student;
 	}
-	public void setSamosa(Student samosa) {
-		this.samosa = samosa;
+	public void setSamosa(Student student) {
+		this.student = student;
 	}
 	public void study() {
-		this.samosa.display();
+		this.student.display();
 		System.out.println("student is reading books");
 	}
 
